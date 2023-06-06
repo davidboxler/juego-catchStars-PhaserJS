@@ -1,0 +1,14 @@
+{ "columns":1,
+ "image":"cub_atlas.png",
+ "imageheight":34,
+ "imagewidth":34,
+ "margin":0,
+ "name":"cub_atlas",
+ "spacing":0,
+ "tilecount":1,
+ "tiledversion":"1.10.1",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.10"
+}
