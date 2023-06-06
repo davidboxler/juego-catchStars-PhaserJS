@@ -4,7 +4,7 @@ export default class Game extends Phaser.Scene {
   }
 
   init() {
-    this.timeLeft = 2;
+    this.timeLeft = 40;
     this.gameOver = false;
     this.audio;
     this.collectGood;

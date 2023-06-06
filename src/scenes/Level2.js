@@ -4,7 +4,7 @@ export default class Level2 extends Phaser.Scene {
   }
 
   init(estrellas) {
-    this.timeLeft = 40;
+    this.timeLeft = 50;
     this.gameOver = false;
     this.audio;
     this.collectGood;
