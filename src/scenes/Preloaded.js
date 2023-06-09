@@ -8,26 +8,26 @@ export default class Preloaded extends Phaser.Scene {
 
   preload() {
     // load assets
-    this.load.tilemapTiledJSON("mapN1", "../../public/tilemaps/level1.json");
-    this.load.tilemapTiledJSON("mapN2", "../../public/tilemaps/level2.json");
-    this.load.tilemapTiledJSON("mapN3", "../../public/tilemaps/level3.json");
-    this.load.image("haven", "../../public/images/sky_atlas.png");
-    this.load.image("platform1", "../../public/images/cub_atlas.png");
-    this.load.image("star", "../../public/images/star.png");
-    this.load.spritesheet("dude", "../../public/images/dude.png", {
+    this.load.tilemapTiledJSON("mapN1", "../../assets/tilemaps/level1.json");
+    this.load.tilemapTiledJSON("mapN2", "../../assets/tilemaps/level2.json");
+    this.load.tilemapTiledJSON("mapN3", "../../assets/tilemaps/level3.json");
+    this.load.image("haven", "../../assets/images/sky_atlas.png");
+    this.load.image("platform1", "../../assets/images/cub_atlas.png");
+    this.load.image("star", "../../assets/images/star.png");
+    this.load.spritesheet("dude", "../../assets/images/dude.png", {
       frameWidth: 32,
       frameHeight: 48,
     });
-    this.load.image("bomb", "../../public/images/bomb.png");
-    this.load.image("door", "../../public/images/door.png");
-    this.load.image("game-over", "../../public/images/game-over.png");
-    this.load.image("congrats", "../../public/images/congrats.png");
+    this.load.image("bomb", "../../assets/images/bomb.png");
+    this.load.image("door", "../../assets/images/door.png");
+    this.load.image("game-over", "../../assets/images/game-over.png");
+    this.load.image("congrats", "../../assets/images/congrats.png");
 
-    this.load.audio("collectBad", "../../public/sounds/bad.mp3");
-    this.load.audio("sound", "../../public/sounds/goats.mp3");
-    this.load.audio("collectGood", "../../public/sounds/good.wav");
-    this.load.audio("jump", "../../public/sounds/salto.wav");
-    this.load.audio("won", "../../public/sounds/wonderful.mp3");
+    this.load.audio("collectBad", "../../assets/sounds/bad.mp3");
+    this.load.audio("sound", "../../assets/sounds/goats.mp3");
+    this.load.audio("collectGood", "../../assets/sounds/good.wav");
+    this.load.audio("jump", "../../assets/sounds/salto.wav");
+    this.load.audio("won", "../../assets/sounds/wonderful.mp3");
   }
 
   create() {

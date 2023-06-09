@@ -114,7 +114,7 @@ export default class Level2 extends Phaser.Scene {
       this.jugador,
       this.salida,
       this.esVencedor,
-      () => this.cantidadEstrellas >= 1,
+      () => this.cantEstrellas >= 1,
       this
     );
 
@@ -208,7 +208,7 @@ export default class Level2 extends Phaser.Scene {
 
   explosionBomb(jugador, bomba) {
     bomba.disableBody(true, true);
-    this.cantEstrellas = 0;
+
     this.touchBomm.play();
     this.audio.stop();
     this.scene.restart();
