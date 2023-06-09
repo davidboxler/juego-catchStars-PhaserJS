@@ -1,9 +1,9 @@
-import Level1 from '../src/scenes/Level1.js';
-import GameOver from '../src/scenes/GameOver.js';
-import Level2 from '../src/scenes/Level2.js';
-import Level3 from '../src/scenes/Level3.js';
-import Win from '../src/scenes/Winner.js';
-import Preload from '../src/scenes/Preloaded.js';
+import Level1 from '../assets/scenes/Level1.js';
+import GameOver from '../assets/scenes/GameOver.js';
+import Level2 from '../assets/scenes/Level2.js';
+import Level3 from '../assets/scenes/Level3.js';
+import Win from '../assets/scenes/Winner.js';
+import Preload from '../assets/scenes/Preloaded.js';
 
 // Create a new Phaser config object
 const config = {
